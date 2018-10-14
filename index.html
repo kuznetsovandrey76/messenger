@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			        box-sizing: border-box;
+		}
+		.group {
+			width: 4%;
+			background: darkred;
+			min-height: 100vh;
+			position: fixed;
+		}
+		.main {
+			width: 20%;
+				padding: 5px;
+			position: fixed;
+			background: tomato;
+			min-height: 100vh;
+			left: 4%;			
+		}
+		.main-info {
+			margin-bottom: 10px;
+			max-width: 100%;			
+		}
+		.main-info__group-name {
+			font-size: 100%;
+		}
+		.main-themes {
+			margin-bottom: 10px;			
+		}
+		.msg {
+			width: 76%;
+			padding: 5px;
+			position: absolute;
+			background: whitesmoke;
+			min-height: 100vh;
+			left: 24%;				
+		}
+	</style>
+</head>
+<body>
+	<div class="group" id="group"></div>
+	<div class="main" id="main">
+		<div class="main-info">
+			<p class="main-info__group-name">GroupName</p>
+			<p class="main-info__user-name">UserName</p>
+		</div>
+		<div class="main-themes">
+			<p class="main-themes__header">Themes</p>
+			<p class="main-themes__list">123</p>
+		</div>
+		<div class="main-users">
+			<p class="main-users__header">Users</p>
+			<p class="main-users__list">Andrey</p>
+		</div>
+	</div>
+	<div class="msg" id="msg">
+		<p class="msg__header">Users</p>
+		<p class="msg__list"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatibus incidunt nostrum amet eum nam porro recusandae dignissimos soluta, officia qui repellendus impedit saepe aliquid repellat ab cum perspiciatis mollitia?</span>
+		<span>Repellat, error, dolorem. Fugiat fuga, ipsam ut nihil sint iure amet ad voluptas eius ab impedit corporis? Beatae libero facere deleniti, cum quo voluptatem doloremque nulla obcaecati neque consequatur fuga.</span>
+		<span>Quo nostrum dolorum magni libero ad dolores soluta architecto, quam quae ipsam modi? Assumenda vero dolores soluta numquam quaerat animi explicabo veniam accusantium asperiores quos ipsam harum, repudiandae, consequatur omnis.</span></p>
+	</div>		
+</body>
+</html>
